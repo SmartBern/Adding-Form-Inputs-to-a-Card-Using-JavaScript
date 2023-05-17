@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+    <script defer src="/script.js"></script>
+</head>
+<body>
+    
+
+    <div class="form-container">
+            
+        <h3>Laptop brand specifications</h3> <br> <br>
+
+        <form action="">
+            <input type="text" placeholder="Laptop name" class="laptop-name"> <br> <br>
+            <input type="text" placeholder="Processor" class="laptop-processor"> <br> <br>
+            <input type="text" placeholder="Generation" class="laptop-gen"> <br> <br>
+            <input type="text" placeholder="RAM" class="laptop-ram"> <br> <br>
+            <input type="text" placeholder="SSD" class="laptop-ssd"> <br> <br>
+            <input type="text" placeholder="Screen size" class="laptop-screensize"> <br> <br>
+            <input type="text" placeholder="Backup" class="laptop-backup"> <br> <br>
+
+            <button class="btn" type="submit" onclick="submitBtn()">Submit</button>
+            
+        </form>
+
+    </div>
+
+    <section class="specs-container">
+
+        <div class="specs-card">
+            <img src="/Dell laptop.jpg" class="laptop-image" alt="">
+
+            <ul class="specs-list">
+                <li><b>Laptop name</b>: Dell</li>
+                <li><b>Processor</b>: Intel Core i7</li>
+                <li><b>Generation</b>: 8th</li>
+                <li><b>RAM</b>: 16GB</li>
+                <li><b>SSD</b>: 512GB</li>
+                <li><b>Screen size</b>: 15.6 inches</li>
+                <li><b>Backup</b>: 7 hours</li>
+            </ul>
+        </div>
+
+        <div class="specs-card">
+            <img src="/hp-laptop.jpg" class="laptop-image" alt="">
+
+            <ul class="specs-list">
+                <li><b>Laptop name</b>: HP</li>
+                <li><b>Processor</b>: Intel Core i5</li>
+                <li><b>Generation</b>: 10th</li>
+                <li><b>RAM</b>: 16GB</li>
+                <li><b>SSD</b>: 512GB</li>
+                <li><b>Screen size</b>: 14.1 inches</li>
+                <li><b>Backup</b>: 9 hours</li>
+            </ul>
+        </div>
+
+        <div class="specs-card">
+            <img src="/Lenovo laptop.webp" class="laptop-image" alt="">
+
+            <ul class="specs-list">
+                <li><b>Laptop name</b>: Lenovo</li>
+                <li><b>Processor</b>: Intel Core i7</li>
+                <li><b>Generation</b>: 10th</li>
+                <li><b>RAM</b>: 32GB</li>
+                <li><b>SSD</b>: 512GB</li>
+                <li><b>Screen size</b>: 13.3 inches</li>
+                <li><b>Backup</b>: 10 hours</li>
+            </ul>
+        </div>
+
+        <div class="output">
+            <img src="/Laptop.jpg" class="laptop-image" alt="">
+
+            <div class="specs-list">
+                <p><b>Laptop name</b>: <span id="output1"></span> </p>
+                <p><b>Processor</b>: <span id="output2"></span> </p>
+                <p><b>Generation</b>: <span id="output3"></span> </p>
+                <p><b>RAM</b>: <span id="output4"></span> </p>
+                <p><b>SSD</b>: <span id="output5"></span> </p>
+                <p><b>Screensize</b>: <span id="output6"></span> </p>
+                <p><b>Backup</b>: <span id="output7"></span> </p>
+            </div>            
+        </div>
+    </section>
+
+    
+
+    
+</body>
+</html>

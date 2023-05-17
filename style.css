@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body
+{
+    background-color: rgb(196, 248, 255);
+}
+
+.form-container
+{
+    border: 2px groove;
+    width: 230px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: azure;
+}
+
+
+form input{
+    border: none;
+    border-bottom:1px solid black ;
+    background: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn
+{
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    
+}
+
+
+.specs-container
+{
+    width: fit-content;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    background-color: blue;
+    display: flex;
+    padding-top: 7.5px;
+    gap: 10px;
+}
+
+.specs-card
+{
+    width: 250px;
+    height: 285px;
+    background-color: rgb(231, 231, 201);
+    border-radius: 7px;
+    
+}
+
+
+/* .card2
+{
+    width: 250px;
+    height: 285px;
+    background-color: rgb(220, 223, 217);
+    border-radius: 7px;
+}
+
+.card3
+{
+    width: 250px;
+    height: 285px;
+    background-color: rgb(221, 217, 219);
+    border-radius: 7px;
+} */
+
+.laptop-image
+{
+    height: 140px;
+    width: 250px;
+    border-bottom: solid rgb(109, 216, 55);
+    border-radius: 7px;
+}
+
+.specs-list
+{
+    padding: 5px;
+}
+
+.output
+{
+    width: 250px;
+    height: 285px;
+    background-color: rgb(253, 206, 220);
+    border-radius: 7px;
+}
+
